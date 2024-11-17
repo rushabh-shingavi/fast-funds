@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/%7Bfast-funds%7D/static/css/main.8314286f.css",
-    "main.js": "/%7Bfast-funds%7D/static/js/main.b1ea06b4.js",
+    "main.js": "/%7Bfast-funds%7D/static/js/main.27955d8b.js",
     "static/js/21.af7ca624.chunk.js": "/%7Bfast-funds%7D/static/js/21.af7ca624.chunk.js",
     "static/js/453.10de799f.chunk.js": "/%7Bfast-funds%7D/static/js/453.10de799f.chunk.js",
     "static/media/profile.png": "/%7Bfast-funds%7D/static/media/profile.066f7e4550c75bb26212.png",
@@ -27,12 +27,12 @@
     "static/media/CheckedDoc.svg": "/%7Bfast-funds%7D/static/media/CheckedDoc.36231d9087a99b04bfdfdaba81738bd5.svg",
     "static/media/filters-lines.svg": "/%7Bfast-funds%7D/static/media/filters-lines.eb5807356d1a90672569c5e122ec4514.svg",
     "main.8314286f.css.map": "/%7Bfast-funds%7D/static/css/main.8314286f.css.map",
-    "main.b1ea06b4.js.map": "/%7Bfast-funds%7D/static/js/main.b1ea06b4.js.map",
+    "main.27955d8b.js.map": "/%7Bfast-funds%7D/static/js/main.27955d8b.js.map",
     "21.af7ca624.chunk.js.map": "/%7Bfast-funds%7D/static/js/21.af7ca624.chunk.js.map",
     "453.10de799f.chunk.js.map": "/%7Bfast-funds%7D/static/js/453.10de799f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8314286f.css",
-    "static/js/main.b1ea06b4.js"
+    "static/js/main.27955d8b.js"
   ]
 }
