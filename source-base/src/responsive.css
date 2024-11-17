@@ -1,0 +1,77 @@
+@media (max-width: 899px) {
+  .auth-card-form {
+    width: inherit;
+    border: none;
+    padding: 20px 0;
+    border-radius: none;
+  }
+
+  .hide-xs {
+    display: none !important;
+  }
+
+  .hide-lg {
+    display: inline-block;
+  }
+  .top-banner {
+    padding: 0 15px !important;
+  }
+  .table-body {
+    width: 950px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .hide-xs {
+    display: inline-block;
+  }
+
+  .hide-lg {
+    display: none !important;
+  }
+
+  .auth-card-form {
+    width: 525px;
+    border: 3px solid #e8e6e6;
+    padding: 20px 0;
+  }
+
+  .auth-card-normal {
+    padding: 80px 35px;
+  }
+  .top-banner {
+    padding: 0 20px !important;
+  }
+  .table-body {
+    width: 950px;
+  }
+}
+
+@media (min-width: 1100px) {
+  
+
+  .bank-logo {
+    height: 66px;
+  }
+
+  .auth-card-form {
+    width: 525px;
+    border: 3px solid #e8e6e6;
+    padding: 20px 0;
+    border-radius: 20px;
+  }
+
+  .hide-xs {
+    display: block;
+  }
+
+  .auth-card-normal {
+    padding: 80px 50px;
+  }
+  .hide-lg {
+    display: none !important;
+  }
+  .top-banner {
+    padding: 0 30px !important;
+  } 
+}

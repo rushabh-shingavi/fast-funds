@@ -1,0 +1,28 @@
+@font-face {
+  font-family: poppinsRegular;
+  src: url("./fonts/Poppins-Regular.ttf") format("trueType");
+}
+
+@font-face {
+  font-family: poppinMedium;
+  src: url("./fonts/Poppins-Medium.ttf") format("trueType");
+}
+
+@font-face {
+  font-family: poppinBold;
+  src: url("./fonts/Poppins-Bold.ttf") format("trueType");
+}
+
+@font-face {
+  font-family: poppinLight;
+  src: url("./fonts/Poppins-Light.ttf") format("trueType");
+}
+
+@font-face {
+  font-family: poppinSemiBold;
+  src: url("./fonts/Poppins-SemiBold.ttf") format("trueType");
+}
+
+#body-scroll {
+  overflow-y: hidden;
+}

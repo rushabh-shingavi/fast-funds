@@ -1,0 +1,5 @@
+.top-banner {
+  color: var(--list_text_color);
+  background: var(--white_color);
+  border-bottom: 1px solid #dbdada;
+}

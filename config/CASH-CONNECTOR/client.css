@@ -1,0 +1,50 @@
+:root {
+  --primary_color: #003161;
+  --secondary_color: #917b4c;
+  --menu_primary_color: #002e6d;
+  --menu_primary_color_1: #002a62;
+  --menu_secondary_color: #917b4c;
+  --uncheck_color: #e2ddd0;
+  --primary_background_color: #917b4c;
+  --secondary_background_color: #002e6d;
+  --text_color: white;
+  --filled_button_color: #917b4c;
+  --primary_title_color: #917b4c;
+  --primary_tile_color: #917b4c;
+  --secondary_tile_color: #002e6d;
+  --tertiary_color: #002e6d;
+  --download_button_color:white;
+  --black_color: #000000;
+  --red_color:  #FF0000;
+}
+
+/* .login-button {
+  background-image: url("./assets/images/preLoginImage.svg") !important;
+  color: white;
+} */
+
+.gradient-overlay {
+  background: linear-gradient(to bottom,
+      rgba(0, 46, 109, 0.7) 0%,
+      rgba(0, 80, 189, 0.7) 100%);
+}
+
+.btn-login .ant-btn-primary {
+  background-color: #003161 !important;
+}
+
+.btn-verify .ant-btn-primary {
+  background-color: #FFF !important;
+  color: #003161;
+  border: 1px solid #003161;
+
+}
+
+.btn-login .ant-btn-primary:not(:disabled):hover {
+  background-color: #003161 !important;
+}
+
+.btn-verify .ant-btn-primary:not(:disabled):hover {
+  background-color: #FFF !important;
+  color: #003161 ;
+}

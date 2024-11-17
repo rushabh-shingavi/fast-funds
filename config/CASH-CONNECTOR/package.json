@@ -1,0 +1,8 @@
+{
+  "name": "cash_connect_configuration",
+  "version": "1.0.0",
+  "description": "cash_connect_configuration",
+  "main": "index.js",
+  "license": "ISC",
+  "private": true
+}
