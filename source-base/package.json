@@ -2,7 +2,7 @@
   "name": "source-base",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://{rushabh-shingavi}.github.io/{fast-funds}",
+  "homepage": ".",
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
     "@testing-library/jest-dom": "^5.17.0",
