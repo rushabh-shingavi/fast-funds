@@ -16,7 +16,7 @@ export default function AppRouter() {
 
   return (
     <>
-      <BrowserRouter basename="/Cash-Connect">
+      <BrowserRouter basename="/">
       <Routes>
       <Route path="/" element={<Navigate replace to="/login" />} />
         <Route
