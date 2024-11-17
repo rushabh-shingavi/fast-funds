@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/%7Bfast-funds%7D/static/css/main.8314286f.css",
+    "main.js": "/%7Bfast-funds%7D/static/js/main.b1ea06b4.js",
+    "static/js/21.af7ca624.chunk.js": "/%7Bfast-funds%7D/static/js/21.af7ca624.chunk.js",
+    "static/js/453.10de799f.chunk.js": "/%7Bfast-funds%7D/static/js/453.10de799f.chunk.js",
+    "static/media/profile.png": "/%7Bfast-funds%7D/static/media/profile.066f7e4550c75bb26212.png",
+    "static/media/login-slide.webp": "/%7Bfast-funds%7D/static/media/login-slide.01aeff7e6cb46f02bc38.webp",
+    "static/media/Avatar1.png": "/%7Bfast-funds%7D/static/media/Avatar1.42a58b41142857d72930.png",
+    "static/media/delete.svg": "/%7Bfast-funds%7D/static/media/delete.32f203df9878932bf33ffb1c969f6927.svg",
+    "static/media/notify-icon.svg": "/%7Bfast-funds%7D/static/media/notify-icon.40efa0f703a73d8787599fc7f607348e.svg",
+    "static/media/edit.svg": "/%7Bfast-funds%7D/static/media/edit.fbacdef767625a29f556a5db213e3d88.svg",
+    "static/media/attachment.svg": "/%7Bfast-funds%7D/static/media/attachment.88c345e92350cae28e09eb1791dbf052.svg",
+    "static/media/DocSuccess.svg": "/%7Bfast-funds%7D/static/media/DocSuccess.cd1a0768494d2ead6f2390fd4156d315.svg",
+    "static/media/eyeicon-grey.svg": "/%7Bfast-funds%7D/static/media/eyeicon-grey.5c7eb9b74efc5681b0ae904fe9eb46ad.svg",
+    "static/media/close.svg": "/%7Bfast-funds%7D/static/media/close.d00ee46319744ce60f6cdf83b56c6ef3.svg",
+    "static/media/visa-icon.svg": "/%7Bfast-funds%7D/static/media/visa-icon.d7699890c420a4710fe662369a19b710.svg",
+    "static/media/SucessIcon.svg": "/%7Bfast-funds%7D/static/media/SucessIcon.c1866d1f434016dc26bfe638ff78f885.svg",
+    "static/media/eyeicon-fill.svg": "/%7Bfast-funds%7D/static/media/eyeicon-fill.9dc7befec04d67ced998f8666b8a97a1.svg",
+    "static/media/UncheckedDoc.svg": "/%7Bfast-funds%7D/static/media/UncheckedDoc.3b8e669edd3a3c6bf9ac96ad03d25b30.svg",
+    "static/media/zone-icon.svg": "/%7Bfast-funds%7D/static/media/zone-icon.b1cd24690cd4d9cb698bf55ae0e53061.svg",
+    "static/media/UploadSelect.svg": "/%7Bfast-funds%7D/static/media/UploadSelect.fa687df0cf636b380ebdafd38e5314df.svg",
+    "static/media/UploadSucess.svg": "/%7Bfast-funds%7D/static/media/UploadSucess.8d9672f38a683716293b30e96f3f59fd.svg",
+    "index.html": "/%7Bfast-funds%7D/index.html",
+    "static/media/icon-park.svg": "/%7Bfast-funds%7D/static/media/icon-park.638402445e929b0544c97a687a1a74e5.svg",
+    "static/media/DocSelect.svg": "/%7Bfast-funds%7D/static/media/DocSelect.ac51de515f9871d5217641f7a95b209e.svg",
+    "static/media/CheckedDoc.svg": "/%7Bfast-funds%7D/static/media/CheckedDoc.36231d9087a99b04bfdfdaba81738bd5.svg",
+    "static/media/filters-lines.svg": "/%7Bfast-funds%7D/static/media/filters-lines.eb5807356d1a90672569c5e122ec4514.svg",
+    "main.8314286f.css.map": "/%7Bfast-funds%7D/static/css/main.8314286f.css.map",
+    "main.b1ea06b4.js.map": "/%7Bfast-funds%7D/static/js/main.b1ea06b4.js.map",
+    "21.af7ca624.chunk.js.map": "/%7Bfast-funds%7D/static/js/21.af7ca624.chunk.js.map",
+    "453.10de799f.chunk.js.map": "/%7Bfast-funds%7D/static/js/453.10de799f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8314286f.css",
+    "static/js/main.b1ea06b4.js"
+  ]
+}
