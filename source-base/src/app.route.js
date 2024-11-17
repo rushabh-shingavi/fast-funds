@@ -16,7 +16,7 @@ export default function AppRouter() {
 
   return (
     <>
-      <BrowserRouter basename="/">
+      {/* <BrowserRouter basename="/"> */}
       <Routes>
       <Route path="/" element={<Navigate replace to="/login" />} />
         <Route
@@ -70,7 +70,7 @@ export default function AppRouter() {
           }
         />
       </Routes>
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </>
   );
 }
