@@ -12,7 +12,7 @@ import BankComponent from "../pages/bank/bank";
 export default function LayoutWrapper() {
     const LoginDetails = useSelector(loginDetailsSelector);
     const UserName = LoginDetails.userName.toLowerCase();
-    const mainLayout = UserName === CONFIG.MERCHANT_USERNAME ? true : false;
+    const mainLayout = UserName === CONFIG.USERNAME1 ? true : false;
     return (
         <>
             <div className="top-banner">

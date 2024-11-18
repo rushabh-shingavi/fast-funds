@@ -24,7 +24,7 @@ export default function TopBanner() {
     const lastLogin = moment().format('DD.MM.YYYY [at] hh.mm a');
     const LoginDetails = useSelector(loginDetailsSelector);
     const UserName = LoginDetails.userName.toLowerCase();
-    const mainDashboard = UserName === CONFIG.MERCHANT_USERNAME ? true : false;
+    const mainDashboard = UserName === CONFIG.USERNAME1 ? true : false;
   const content = (
     <ul className="profile-options m-0 p-0" style={{listStyleType:'none'}}>
       {/* <li onClick={() => navigate("/profile")}>

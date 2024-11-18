@@ -21,11 +21,11 @@ const postLogin = useCallback(
     console.log('data', data)
     try {
       const UserName = data.userName.toLowerCase();
-      if (data && UserName === CONFIG.MERCHANT_USERNAME && data.password === CONFIG.MERCHANT_PASSWORD) {
+      if (data && UserName === CONFIG.USERNAME1 && data.password === CONFIG.PASSWORD1) {
         dispatch(setLoginDetails(data));
         navigate("/dashboard-merchant")
       }
-      else if (data && UserName === CONFIG.BANK_USERNAME && data.password === CONFIG.BANK_PASSWORD) {
+      else if (data && UserName === CONFIG.USERNAME2 && data.password === CONFIG.PASSWORD2) {
         dispatch(setLoginDetails(data));
         navigate("/dashboard-bank")
       }

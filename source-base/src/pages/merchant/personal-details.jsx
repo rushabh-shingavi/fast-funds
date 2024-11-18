@@ -16,7 +16,7 @@ export default function PersonalDetails({ onStage }) {
     const navigate = useNavigate();
     const LoginDetails = useSelector(loginDetailsSelector);
   const UserName = LoginDetails.userName.toLowerCase();
-  const mainDashboard = UserName === CONFIG.MERCHANT_USERNAME ? true : false;
+  const mainDashboard = UserName === CONFIG.USERNAME1 ? true : false;
     const onFinish = (values) => {
         console.log('Form values:', values);
         onStage(2)

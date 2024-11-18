@@ -37,7 +37,7 @@ export default function SideBar() {
   ];
   const LoginDetails = useSelector(loginDetailsSelector);
   const UserName = LoginDetails.userName.toLowerCase();
-  const data = UserName === CONFIG.MERCHANT_USERNAME ? data1 : data2;
+  const data = UserName === CONFIG.USERNAME1 ? data1 : data2;
   return (
     <>
       <Steps className="display-side mb-5"

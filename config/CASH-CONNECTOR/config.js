@@ -1,8 +1,8 @@
 export const BASE_CONFIG = {
    
-   MERCHANT_USERNAME: "merchant",
-   MERCHANT_PASSWORD: "Tech@2024",
+   USERNAME1: "user1",
+   PASSWORD1: "User@123",
 
-   BANK_USERNAME: "bank",
-   BANK_PASSWORD: "Tech@2024",
+   USERNAME2: "user2",
+   PASSWORD2: "User@123",
 };
