@@ -18,7 +18,7 @@ export default function AppRouter() {
     <>
       <BrowserRouter>
       <Routes>
-      <Route path="/" element={<Navigate to="/login" />} />
+      <Route path="/" element={<Navigate to="/login" replace />} />
       {/* <Route path="/" element={<Navigate replace to="/login" />} /> */}
         <Route
           path="/login"
