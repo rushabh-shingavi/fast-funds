@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { Navigate, Route, Routes } from "react-router";
+import { Navigate } from "react-router";
 import AuthLayout from "./pages/preAuth/authLayout";
 import ForgotUserName from "./pages/preAuth/forget-username";
 import ForgotPassword from "./pages/preAuth/forget-password";
@@ -7,7 +7,8 @@ import LayoutWrapper from "./layout/layout";
 import DashboardMerchant from "./pages/dashboard/dashboard-merchant";
 import DashboardBank from "./pages/dashboard/dashboard-bank";
 import ViewAnalytics from "./pages/bank/view-analytics";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Landing from "./pages/preAuth/Landing";
 
 const LandingComponent = React.lazy(() => import("./pages/preAuth/Landing"));
 
@@ -16,11 +17,14 @@ export default function AppRouter() {
 
   return (
     <>
-      <BrowserRouter>
+     <Router>
       <Routes>
-      <Route path="/" element={<Navigate to="/login" replace />} />
+        <Route path="/" element={<Navigate to="/login" />} />
+        <Route path="/login" element={ <AuthLayout><Landing /></AuthLayout>} />
+        {/* Add your other routes */}
+      {/* <Route path="/" element={<Navigate to="/login" replace />} /> */}
       {/* <Route path="/" element={<Navigate replace to="/login" />} /> */}
-        <Route
+        {/* <Route
           path="/login"
           element={
             <AuthLayout>
@@ -29,7 +33,7 @@ export default function AppRouter() {
               </Suspense>
             </AuthLayout>
           }
-        />
+        /> */}
         <Route
           path="/forgot-username"
           element={
@@ -71,7 +75,7 @@ export default function AppRouter() {
           }
         />
       </Routes>
-      </BrowserRouter>
+      </Router>
     </>
   );
 }
